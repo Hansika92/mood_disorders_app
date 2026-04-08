@@ -47,7 +47,7 @@ def treatment_plan(diagnosis):
 
 if st.session_state.stage == 0:
 
-    st.image("assets/mood.png")
+    st.image("mood.png")
     st.title("Mood Disorder Clinical Decision Support System")
 
     st.markdown("""
